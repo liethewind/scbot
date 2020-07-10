@@ -1,5 +1,5 @@
 from datetime import datetime
-import pc
+import pc_linux
 
 import socketio, requests, re, time, base64, random, json, psutil, cpuinfo, datetime, threading, sys, schedule
 from queue import Queue, LifoQueue
@@ -542,6 +542,14 @@ def sendtext_queue():
         sent_group['group'] = data['mess'].FromQQG
 
 
+def base2_64(filename):
+    with open(filename, 'rb') as f:
+        coding = base64.b64encode(f.read())  # 读取文件内容，转换为base64编码
+        print('本地base64转码~')
+        return coding.decode()
+
+
+
 def heartbeat():  # 定时获取QQ连接,偶尔会突然断开
     # while True:
     #     time.sleep(60)
@@ -602,6 +610,14 @@ def OnGroupMsgs(message):
         send_setu(a, setu_keyword)
         return
     # -----------------------------------------------------
+    if a.Content == '服务器状态':
+        test_yz_msg = pc_linux.mssg()
+        q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
+        pc_linux.get_image()
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+                    'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
+        return
+    # -----------------------------------------------------
     if a.Content == 'sysinfo':
         msg = sysinfo()
         q_text.put({'mess': a, 'msg': msg, 'atuser': 0})
@@ -609,12 +625,8 @@ def OnGroupMsgs(message):
         return
 
     if a.Content == '报告宇宙状态':
-        test_yz_msg = pc.mssg()
+        test_yz_msg = pc.msssg(),ps.mssg()
         q_text.put({'mess': a, 'msg': test_yz_msg , 'atuser': 0})
-        return
-    if a.Content == '服务器状态':
-        test_sc_msg = pc.mssg()
-        q_text.put({'mess': a, 'msg': test_sc_msg , 'atuser': 0})
         return
     if a.Content == '星际公民服务器':
         test_sd_msg = pc.mssg()
@@ -624,10 +636,10 @@ def OnGroupMsgs(message):
         test_se_msg = pc.mssg()
         q_text.put({'mess': a, 'msg': test_se_msg , 'atuser': 0})
         return
-    if re.search("服务器..?",a.Content):
-        test_sg_msg = pc.mssg()
-        q_text.put({'mess': a, 'msg': test_sg_msg , 'atuser': 0})
-    return
+    #if re.search("服务器..?",a.Content):
+    #    test_sg_msg = pc.mssg()
+    #    q_text.put({'mess': a, 'msg': test_sg_msg , 'atuser': 0})
+    #return
     # -----------------------------------------------------
     if a.At_Content == 'nmsl':
         q_text.put({'mess': a, 'msg': before_nmsl_to_send, 'atuser': 0})
@@ -659,6 +671,14 @@ def OnFriendMsgs(message):
         send_setu(a, setu_keyword)
         return
     # -----------------------------------------------------
+    if a.Content == '服务器状态':
+        test_yz_msg = pc_linux.mssg()
+        q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
+        pc_linux.get_image()
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+                    'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
+        return
+    # -----------------------------------------------------
     if a.Content == 'sysinfo':
         msg = sysinfo()
         # send_text(a, msg)
@@ -675,11 +695,7 @@ def OnFriendMsgs(message):
     if a.Content == '报告宇宙状态':
         test_yz_msg = pc.mssg()
         q_text.put({'mess': a, 'msg': test_yz_msg , 'atuser': 0})
-        return
-    if a.Content == '服务器状态':
-        test_sc_msg = pc.mssg()
-        q_text.put({'mess': a, 'msg': test_sc_msg , 'atuser': 0})
-        return
+    return
     if a.Content == '星际公民服务器':
         test_sd_msg = pc.mssg()
         q_text.put({'mess': a, 'msg': test_sd_msg , 'atuser': 0})
