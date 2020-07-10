@@ -1,0 +1,11 @@
+requests
+psutil
+py-cpuinfo
+python-socketio
+websocket-client
+random
+string
+time
+lxml
+selenium
+pyvirtualdisplay
