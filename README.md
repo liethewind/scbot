@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [IOTBOT](https://github.com/IOTQQ/IOTQQ)的色图姬插件
 
 在config里填上bot的qq号和对应webapi地址和[key](https://api.lolicon.app/)运行就好了,那些黑名单 白名单什么的没特殊要求就不用管了....
@@ -137,3 +138,9 @@ api的代码在https://github.com/yuban10703/Pixiv_download_to_mongodb
 
 [CQ-picfinder-robot](https://github.com/Tsuk1ko/CQ-picfinder-robot)
 
+=======
+# scbot
+# 初始文件7月8日提交
+#  2020/07/16
+# 服务器正式由云服务器迁移至物理服务器
+>>>>>>> 46d49c557acdf5a40c482e70c5c38026d096eb69
