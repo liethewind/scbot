@@ -1,0 +1,909 @@
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
++ from datetime import datetime
+sex_pic2.py: line 1: from: command not found
++ import pc
+sex_pic2.py: line 2: import: command not found
++ import socketio, requests, re, time, base64, random, json, psutil, cpuinfo, datetime, threading, sys, schedule
+sex_pic2.py: line 4: import: command not found
++ from queue import Queue, LifoQueue
+sex_pic2.py: line 5: from: command not found
+sex_pic2.py: line 8: syntax error near unexpected token `('
+sex_pic2.py: line 8: `with open('config.json', 'r', encoding='utf-8') as f:  # 从json读配置'
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+获取配置成功~
+Connection error
+获取配置成功~
+Connection error
+获取配置成功~
+Connection error
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+Exception in thread Thread-2534:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 643, in OnGroupMsgs
+    test_yz_msg = pc.msssg(),ps.mssg()
+NameError: name 'pc' is not defined
+
+Exception in thread Thread-3095:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '70']
+
+Exception in thread Thread-3094:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '61']
+
+Exception in thread Thread-3098:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '75']
+
+Exception in thread Thread-3092:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 34, in get_image
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+
+
+Exception in thread Thread-3093:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 34, in get_image
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+
+Exception in thread Thread-3091:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 34, in get_image
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+
+
+
+Exception in thread Thread-3097:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '85']
+
+Exception in thread Thread-3099:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '80']
+
+Exception in thread Thread-3096:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 26, in get_image
+    display.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/display.py", line 67, in start
+    self._obj.start()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 158, in start
+    self._start1()
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 215, in _start1
+    self.display = int(self._wait_for_pipe_text(rfd))
+  File "/usr/local/python3/lib/python3.6/site-packages/pyvirtualdisplay/abstractdisplay.py", line 307, in _wait_for_pipe_text
+    % (self._program, self._command,)
+pyvirtualdisplay.abstractdisplay.XStartTimeoutError: No reply from program Xvfb. command:['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', '-displayfd', '82']
+
+Exception in thread Thread-3082:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 297.057
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3087:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 296.601
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3090:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 41.424
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3085:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 294.416
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3088:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 297.494
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3089:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 38, in get_image
+    driver.get(url)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 297.555
+  (Session info: headless chrome=83.0.4103.116)
+
+
+Exception in thread Thread-3081:
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic4.py", line 625, in OnGroupMsgs
+    pc_linux.get_image()
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 47, in get_image
+    driver.save_screenshot(imgpath)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/python3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=83.0.4103.116)
+
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+  File "sex_pic4.py", line 629
+    if a.Content == 's1mple':
+                            ^
+IndentationError: unindent does not match any outer indentation level
+  File "sex_pic4.py", line 629
+    if a.Content == 's1mple':
+                            ^
+IndentationError: unindent does not match any outer indentation level
+  File "sex_pic4.py", line 629
+    if a.Content == 's1mple':
+                            ^
+IndentationError: unindent does not match any outer indentation level
+  File "sex_pic4.py", line 629
+    if a.Content == 's1mple':
+                            ^
+IndentationError: unindent does not match any outer indentation level
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:('未知错误:', TypeError("Object of type 'GMess' is not JSON serializable",))]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:('未知错误:', TypeError("Object of type 'GMess' is not JSON serializable",))]
+
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/python3/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/python3/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+  File "sex_pic4.py", line 626
+    q==a.Content
+               ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "sex_pic4.py", line 626
+    q=a.Content
+              ^
+TabError: inconsistent use of tabs and spaces in indentation
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+Screenshot of success
+本地base64转码~
+图片消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+Exception in thread Thread-9:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 616, in _handle_eio_message
+    self._handle_event(pkt.namespace, pkt.id, pkt.data)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 500, in _handle_event
+    r = self._trigger_event(data[0], namespace, *data[1:])
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "sex_pic6.py", line 644, in OnGroupMsgs
+    sqls = cnsql.set_sql("select * from tb_tmp1 where 船只中文翻译 like  '%s'" %arys)
+NameError: name 'arys' is not defined
+
+获取配置成功~
+连接成功
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "sex_pic6.py", line 2, in <module>
+    import pc_linux,qqmoudule.mysql_cn
+  File "/IOTQQ-color_pic-master/pc_linux.py", line 10, in <module>
+    get = requests.get(url).text
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.6/http/client.py", line 1346, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.6/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.6/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib64/python3.6/ssl.py", line 968, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib64/python3.6/ssl.py", line 830, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib64/python3.6/ssl.py", line 587, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
+获取配置成功~
+连接成功
+文字消息执行状态:[Ret:0]
+文字消息执行状态:[Ret:0]
+
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib64/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib64/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.6/site-packages/engineio/client.py", line 43, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/usr/local/lib/python3.6/site-packages/socketio/client.py", line 26, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
