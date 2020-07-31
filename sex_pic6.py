@@ -3,8 +3,8 @@ import pc_linux,qqmoudule.mysql_cn
 import xq
 import socketio, requests, re, time, base64, random, json, psutil, cpuinfo, datetime, threading, sys, schedule
 from queue import Queue, LifoQueue
-
-
+import random
+import string
 with open('config.json', 'r', encoding='utf-8') as f:  # 从json读配置
     config = json.loads(f.read())
 color_pickey = config['color_pickey']  # 申请地址api.lolicon.app
@@ -638,7 +638,9 @@ def OnGroupMsgs(message):
         xinxi = ("\n".join(sqls))
         msg = ("该厂商下舰船全部信息如下：\n%s\n查询案例,@我,输入: 锤头鲨" % xinxi)
         q_text.put({'mess': a, 'msg': msg, 'atuser': 0})
-    
+    if a.Content == '网易云' or a.Content == '网抑云' or a.Content == '到点了上号':
+        msg = random.choice(['生而为人 我很抱歉', '你只知道她的左口袋里放着糖，不知道她的右口袋里放着刀和耳机。', '口袋里藏着把戏.袖子里藏着花招','温柔吗？半条命换得','小生不才，未得姑娘青睐，扰姑娘良久，姑娘勿怪，自此所有爱慕之意止于唇齿，匿与年华，姑娘往南走，小生往北瞧，不再打扰姑娘，今生就此别过，望姑娘日后善其身，遇良人予君欢喜城，暖色浮余生。','你的一生，我只借一程。从此我好好走，你慢慢来，我们都别回头。','上帝很有意思 猫喜欢吃鱼 猫缺不能下水 鱼喜欢吃蚯蚓 鱼缺不能上岸 你喜欢他 他缺不喜欢你 人啊 总喜欢自己没有的东西 其实猫吃老鼠也很香 鱼吃虾也很快活 你不去爱他 也能够很幸福 可是猫最爱吃的还是鱼 鱼最爱吃的还是蚯蚓 你最爱的 还是他','枕头里藏满了发霉的梦\n梦里注满了无法拥抱的人','一个人 一座城 一生心疼','药好贵啊，西酞普兰118，舍曲林92，帕罗西汀262。真希望有一天喝药的时候，有一个人能给我喂颗糖，真的好苦，不想喝下去了。','一个女孩让我帮她寄快递，给了我一个空纸箱，让我打包。我好奇的问她：这是寄给谁的？\n她说：我喜欢很久的一个男生\n我懵了一下：可是，里面没有东西啊\n她说：有些东西只有我自己能看见\n我一听更有趣了，神秘的问她：到底是什么\n她说：一箱情愿','现在北京时间7：28，我家傻丫头还在睡觉，听着她睡觉的呼吸声，特别安稳，很庆幸我能做到让她有安全感；我在努力，不让她受伤难过委屈，但是老惹她生气嘿嘿；不知道我还能活多久，胃癌晚期嘛，我爱她，真的很爱很爱很爱，所以很珍惜一起相处的时光；她那么可爱，想想听不到她声音了就想哭……','本来带了一群兄弟想去砸场子的，可是看到了她穿着婚纱，特别特别漂亮。','高中时迟到必须罚唱一首歌，为了唱这首歌给那个女孩听，我故意迟到过','14岁，“妈我有女朋友了。”“太小，分了” 16岁，“妈我有女朋友了。”“不行，分了。” 18岁，“妈我有女朋友了。”“高考，分了。” 24岁，“妈我有女朋友了。”“在一起多久了？” “十年” 刚好遇见你，留下足迹才美丽','2016年2月11日消息：台南地震寻获情侣遗体，两人紧紧环抱，男友双手环抱女友、拱起双肩紧紧护住，搜救人员一度无法将两人分开，忍不住鼻酸说：“你已经尽力保护她了！”看着相片中他们幸福的眼睛，一瞬间就想起了这里面的一句话：如果转换了时空身份和姓名，但愿认得你眼睛。','哪有不分手的恋爱啊，只有不伤手的立白','再理性的分析爱情，到最后不都是奋不顾身吗？','一直怀念高中和同桌没被捅破的爱情，28岁还没谈过恋爱，父母到处为我安排相亲。跑去看到女孩竟然就是高中同桌。我激动的脑子发热，开口就问：谈吗？女孩：谈！我又问：订婚？女孩：订！双方父母目瞪口呆，沉默了很久。相亲宴就在这四句话六个字之后变成了订婚宴','我是个俗气至顶的人，见山是山，见海是海，见花便是花。唯独见了你，云海开始翻涌，江潮开始澎湃，昆虫的小触须挠着全世界的痒。你无需开口，我和天地万物便通通奔向你。','你爱过一个人吗？从满心欢喜到满目疮痍······','考研可能也失败了，妈妈明天因为心脏有问题要去看，继父不管，我亲爹关机不敢接我电话，那些亲人除了我阿姨在为我们东奔西跑，我才23岁了我承受了那么多，听着这首歌会哭的','重度抑郁啦，不能给家里添麻烦，不买药啦，自己百度怎么缓解情绪。不告诉朋友啦，因为无从开口，平时我都是逗他们开心的。不告诉男朋友啦，怕他害怕，找个机会提分手叭。我一直在努力治愈自己，努力给别人温暖，我只是有时候坚持不下去，等等我好不好，我擦擦眼泪马上来。'])
+        q_text.put({'mess': a, 'msg': msg, 'atuser': 0})
     if a.At_Content in qbcm:
         sqls = cnsql.set_sql("select * from sc.tb_tmp1 where 船只中文翻译 like  '%s'" % (a.At_Content))
         xinxi = cnsql.czgsh(sqls)
@@ -650,28 +652,28 @@ def OnGroupMsgs(message):
         test_yz_msg = (pc_linux.mssg1() + "\n" + pc_linux.mssg2() + "\n" + pc_linux.mssg3())
         q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
         pc_linux.get_image()
-        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://bot.stisd.cn/cdn/pic/getimg.png',
                     'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
         return
     if a.Content == '服务器':
         test_yz_msg = (pc_linux.mssg1() + "\n" + pc_linux.mssg2() + "\n" + pc_linux.mssg3())
         q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
         pc_linux.get_image()
-        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://bot.stisd.cn/cdn/pic/getimg.png',
                     'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
         return    
     if a.Content == '萝卜服务器':
         test_yz_msg = (pc_linux.mssg1() + "\n" + pc_linux.mssg2() + "\n" + pc_linux.mssg3())
         q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
         pc_linux.get_image()
-        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://bot.stisd.cn/cdn/pic/getimg.png',
                     'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
         return
     if a.Content == '公民服务器':
         test_yz_msg = (pc_linux.mssg1() + "\n" + pc_linux.mssg2() + "\n" + pc_linux.mssg3())
         q_text.put({'mess': a, 'msg': '正在获取服务器信息。。。' , 'atuser': 0})
         pc_linux.get_image()
-        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://127.0.0.1:18000/cdn/pic/getimg.png',
+        q_pic.put({'mess': a, 'msg': test_yz_msg, 'download_url': 'http://bot.stisd.cn/cdn/pic/getimg.png',
                     'base64code': base2_64('/IOTQQ-color_pic-master/pic/getimg.png')})
         return
     if a.Content == '锤头鲨详情':
